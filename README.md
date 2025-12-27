@@ -2,4 +2,4 @@ Linux Mute on Unfocus is a mod that mutes the game when unfocused on Linux (and 
 
 By default, the game "polls" on a seperate thread from the main game, as to not affect the games performance (even though polling on the main thread *likely* makes zero noticable or traceable difference). There is an option to use the main "game thread" for if you have a low thread count, but keep in mind no matter what you have this set to it will probably make ZERO actual difference in game, even on super slow hardware.
 
-Thats abnout it though, I'm not even gonna put a features list in here for this mod, as its an *extremely* simple mod.
+Thats abnout it though, I'm not even gonna put a features list in here for this mod as its an *extremely* simple mod.
