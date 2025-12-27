@@ -7,8 +7,24 @@
 		"ios": "2.2074"
 	},
 	"id": "baconmania.muteonunfocus",
-	"name": "MuteOnUnfocus",
+	"name": "Linux Mute on Unfocus",
 	"version": "v1.0.0",
 	"developer": "BaconMania",
-	"description": "mutes the game when you alt tab or if its unfocused in general"
+	"description": "mutes the game when you alt tab on the penguin operating system (and prolly windows too)",
+	"settings": {
+		"single-threaded": {
+			"name": "Poll on Game Thread",
+			"description": "Polls for unfocus on the game thread rather than a seperate thread. may *slightly* improve performance on low core count cpus.",
+			"type": "bool",
+			"default": false
+		},
+		"poll-interval": {
+			"name": "Polling Interval (milliseconds)",
+			"description": "The amount of time in milliseconds between focus checks.",
+			"type": "int",
+			"default": 100,
+			"min": 1,
+			"max": 1000
+		}
+	}
 }
